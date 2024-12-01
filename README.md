@@ -15,6 +15,19 @@ pip install transformers==4.40.0 torch==2.4.1 pandas==2.0.3 openpyxl==3.1.5
 
 ## Model info
 ### prefixReward v11
+#### data
+The following data format input is required
+```
+df cols: {
+    `sample_idx`(int), `data_idx`(int), `data_idx`(int), 
+    `assistant1`(str), `user1`(str), 
+    `assistant2`(str), `user2`(str), 
+    `assistant3`(str), `user3`(str), 
+    `original_answer`(str), `gemma-7b_response`(str), 
+    `Fit the context`(int), `Localization`(int), `Concision`(int), `Truthfulness`(int), `Harmfulness`(int), `Overall satisfaction`(int), `ranking(int)`
+    }
+```
+
 #### inference
 <div align="center">
   <img src="https://github.com/yasaisen/prefixReward/blob/main/doc/prefixReward_v11/prefixReward_v11_inference.png" alt="inference" width="300">
