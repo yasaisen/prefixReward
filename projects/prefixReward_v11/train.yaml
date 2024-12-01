@@ -1,0 +1,28 @@
+ # 2411252359
+ # cr yasaisen
+ # next add config to init
+
+model:
+  bert_name: bert-base-chinese
+  prefix_length: 20
+  load_pretrained: True
+  weight_path: /home/yasaisen/Desktop/24_research/research_main/lab_10/best_model_2411240743.pt
+
+dataset:
+  bert_name: bert-base-chinese
+  tokenizer_max_length: 492
+  pairs_sample_num: 5
+  batch_size_train: 2
+  batch_size_eval: 2
+  data_split: 0.8
+
+task:
+  num_epochs: 2
+  lr: 1e-3
+  weight_decay: 1e-4
+  max_lr: 1e-3
+  pct_start: 0.2
+  max_patience: 10
+
+  output_dir: "output/prefixReward_v11"
+  device: "cuda"
