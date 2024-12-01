@@ -10,12 +10,12 @@ python prefixReward_v11_train.py --cfg-path projects/prefixReward_v11/train.yaml
 ### prefixReward v11
 #### inference
 <div align="center">
-  <img src="https://github.com/yasaisen/prefixReward/blob/main/doc/prefixReward_v11/prefixReward_v11_inference.png" alt="inference" width="600">
+  <img src="https://github.com/yasaisen/prefixReward/blob/main/doc/prefixReward_v11/prefixReward_v11_inference.png" alt="inference" width="300">
 </div>
 
 #### model structure
 <div align="center">
-  <img src="https://github.com/yasaisen/prefixReward/blob/main/doc/prefixReward_v11/prefixReward_v11_model.png" alt="model structure" width="600">
+  <img src="https://github.com/yasaisen/prefixReward/blob/main/doc/prefixReward_v11/prefixReward_v11_model.png" alt="model structure" width="400">
 </div>
 
 #### training
