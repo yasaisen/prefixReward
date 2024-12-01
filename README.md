@@ -5,6 +5,13 @@ do prefix tuning on bert-based reward for downstream gemma-7b tuning
 ```shell
 python prefixReward_v11_train.py --cfg-path projects/prefixReward_v11/train.yaml
 ```
+## requirements
+```shell
+conda create --name prefixReward python=3.8
+conda activate prefixReward
+
+pip install transformers==4.40.0 torch==2.4.1 pandas==2.0.3 openpyxl==3.1.5
+```
 
 ## Model info
 ### prefixReward v11
