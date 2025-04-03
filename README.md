@@ -43,7 +43,7 @@ df cols: {
   <img src="https://github.com/yasaisen/prefixReward/blob/main/doc/prefixReward_v11/prefixReward_v11_training.png" alt="training" width="600">
 </div>
 
-#### training
+#### results
 <div align="center">
   <img src="https://github.com/yasaisen/prefixReward/blob/main/doc/prefixReward_v11/reward_diff_plot.png" alt="training" width="600">
 </div>
